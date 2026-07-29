@@ -1,0 +1,88 @@
+.reveal-new-design {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(180deg, #fffafb 0%, #fff0f3 100%);
+  padding: 30px 20px;
+  gap: 5px;
+}
+
+.reveal-month {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  letter-spacing: 8px;
+  color: #a9808a;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.reveal-date-number {
+  font-family: var(--font-serif);
+  font-size: 6rem;
+  font-weight: 400;
+  color: #b8860b;
+  margin: 0;
+  line-height: 1;
+}
+
+.reveal-event-name {
+  font-family: var(--font-script);
+  font-size: 3.2rem;
+  color: #d16b84;
+  margin: -10px 0 10px 0;
+  line-height: 1;
+}
+
+.reveal-line {
+  width: 80px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #d4af37, transparent);
+  margin: 10px 0;
+}
+
+.reveal-venue {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  letter-spacing: 4px;
+  color: #a9808a;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+@media (max-width: 380px) {
+  .reveal-new-design {
+    padding: 15px 10px;
+    gap: 2px;
+  }
+  .reveal-month {
+    font-size: 0.7rem;
+    letter-spacing: 4px;
+  }
+  .reveal-date-number {
+    font-size: 3.8rem;
+  }
+  .reveal-event-name {
+    font-size: 2rem;
+    margin: -5px 0 5px 0;
+  }
+  .reveal-venue {
+    font-size: 0.55rem;
+    letter-spacing: 2px;
+  }
+}
+
+@media (min-width: 381px) and (max-width: 480px) {
+  .reveal-date-number {
+    font-size: 4.5rem;
+  }
+  .reveal-event-name {
+    font-size: 2.5rem;
+  }
+  .reveal-venue {
+    font-size: 0.65rem;
+    letter-spacing: 2px;
+  }
+}
