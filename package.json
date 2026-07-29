@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://imsaravanan85.github.io/wedding-invite/",
+  "homepage": "https://kamal-dev-btree.github.io/mathan-wedding-invite/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
